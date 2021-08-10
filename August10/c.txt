@@ -382,9 +382,6 @@ main()
 Output: sizeof (i) =1
 Reason: #define replaces int by char macro
 
-18) Write programs to understand the usage of below preprocessor directives.
-#include, #if, #ifdef, #ifndef, #else, #elif, #endif, #define, #undef, #line, #error, and #pragma
-
 ===================================== TYPEDEF =========================================
 
 1) In the following code, the P2 is Integer Pointer or Integer?
@@ -407,10 +404,7 @@ int main()
     arrfptr x;
     return 0;
 }
-Answer: x is an array of three function pointers
-
-4) What is apfArithmatics in the below statement?
-typedef int (*apfArithmatics[3])(int,int); 
+Answer: x is an array of three function pointers 
 
 5) What is pf in the below statement?
 typedef int (*pf)(int);
@@ -424,5 +418,3 @@ typedef fpc *pfpc;		//pointer to the above
 typedef pfpc fpfpc();		//function returning pointer to above
 typedef fpfpc *pfpfpc;	//pointer to function returning pointer to above
 pfpfpc a[N];		//array of pointer to function returning pointer to above
-
-7) Write few programs using typedef on structures and enums.
