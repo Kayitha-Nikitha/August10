@@ -1,0 +1,194 @@
+Types of Control Statements in C
+C also supports an unconditional set of branching statements that transfer the control to another location in the program. 
+Selection declarations in C.
+
+1. If statements
+2. Switch Statement
+3. Conditional Operator Statement
+4. Goto Statement
+5. Loop Statements
+
+1. If Statements
+If statement enables the programmer to choose a set of instructions, based on a condition. 
+When the condition is evaluated to true, a set of instructions will be executed 
+and a different set of instructions will be executed when the condition is evaluated to false. 
+We have 4 types of if Statement which are:
+1. If..else
+2. Nested if
+3. Else if ladder
+4. Simple if or null else
+5. Null else or Simple else
+
+If…else Statement
+In this statement, there are two types of statements execute. 
+First, if the condition is true first statement will execute if the condition is false second condition will be executed.
+
+Syntax:
+
+If(condition)
+{
+Statement(s);
+}
+else
+{
+Statement(s)
+}
+Statement
+
+Nested if
+If the condition is evaluated to true in the first if statement, then the condition in the second if statement is evaluated and so on.
+
+Syntax:
+
+If(condition)
+{
+If(condition)
+{
+Statement(s);
+}
+Else
+{
+Statement(s)
+}
+}
+
+The corresponding array of instructions is executed when the first condition is correct. 
+If the condition is incorrect, the next condition will be verified. 
+If all the specifications fail, the default block statements will be executed. 
+The remainder of the ladder can be shown as shown below.
+
+Syntax:
+
+If(condition)
+{
+Statement(s);
+}
+Else if(condition)
+{
+Statement(s);
+}
+else if(condition)
+{
+Statement(s)
+}
+…
+Else
+{
+Statement(s)
+}
+Statement(s);
+
+Null else or Simple else
+If the programmer can execute or skip a set of instructions based on the condition value. 
+The simple one-way statement is selected. A set of statements is carried out if the condition is true. 
+If the condition is false, the control will proceed with the following declaration after the if declaration. 
+Simple else statement:
+
+Syntax:
+
+If(condition)
+{
+Statement(s);
+}
+Statement(s);
+
+2. Switch Statement
+C offers a selection statement in several ways as if the program becomes less readable when the number of conditions increases. 
+C has a multi-way selection statement called the switch statement that is easy to understand to resolve this problem. 
+The switch declaration is easy to understand if more than 3 alternatives exist. 
+The command switches between the blocks based on the expression value. 
+Each block will have a corresponding value.
+
+Syntax:
+
+Switch(expression)
+{
+Case label1:
+Statement(S);
+Break;
+Case label2:
+Statement(S);
+Break;
+Case label3;
+Statement(s);
+Break;
+….
+Case labelN:
+Statement(s);
+Break;
+Default:
+Statement(s);
+Break;
+}
+
+Using the case keyword every block is shown and the block label follows the case keyword. 
+The default block and the break statement are optional in a switch statement.
+
+3. Conditional Operator Statement
+C language provides an unusual operator, which is represented as a conditional operator.
+
+Syntax:
+
+(condition)? expr1: expr2
+
+Expr1 is executed when the condition is valid. Then Expr2 will be executed if the statement is incorrect.
+
+4. goto Statement
+goto statement is known for jumping control statements. 
+It is used to transfer the control of the program from one block to another block. goto keyword is used to declare the goto statement.
+
+Syntax:
+
+goto labelname;
+labelname;
+
+In the above syntax, goto is a keyword that is used to transfer the control to the labelname. labelname is a variable name. 
+In this case, the goto will transfer the control of the program to the labelname and statements followed by the labelname will be executed.
+
+5. Loop Statements
+The programmer may want to repeat several instructions when writing C programs until some requirements are met. 
+To that end, C makes looping declarations for decision-making. 
+We have three types of loops,
+
+For Loop
+While Loop
+Do While Loop
+
+For Loop
+In the For loop, the initialization statement is executed only one time. 
+After that, the condition is checked and if the result of condition is true it will execute the loop. 
+If it is false, then for loop is terminated. 
+However, the result of condition evaluation is true, statements inside the body of for loop gets executed, and the expression is updated. 
+After that, the condition is checked again. This process goes on until the result of the condition becomes false. 
+When the condition is false, the loop terminates.
+
+Syntax:
+
+for( initialization statement; condition)
+{
+//statements inside the loop
+}
+
+While Loop
+In C, the while loop is a guided entry loop. 
+The body of the while loops is only performed if the condition is valid. 
+The loop structure is not executed if the condition scores to incorrect.
+The while loops are usually used when several instructions have to be repeated for an indefinite time.
+
+Syntax:
+
+While(condition)
+{
+//statements inside the loop
+}
+
+Do While Loop
+Unlike while loop, the body of the do is the difference between while and … while loop is guaranteed to be done once at a time.
+
+Syntax:
+
+Do
+{
+//statements inside the loop
+}
+While(condition);

@@ -1,0 +1,44 @@
+Hi All 
+Topics to cover on Monday 
+
+C : Control Structures - Loops- for - while , brk , continue , if - if-else
+DS : Stacks , Queues
+
+Assignment : 
+Loops:
+1.      Write a program to print the below pattern using while loop:
+     /\                                                                                                                       
+
+    /  \                                                                                                                      
+
+   /    \                                                                                                                     
+
+  /      \                                                                                                                    
+
+ /________\
+
+2. Switch case 
+     take 2 double integers and an i/p from user :
+	 if "a" , add the integers and print "sum is .." ,
+	 if "s" , subtract the integers and print "diff is .." ,
+	 default case : print "defaut case- noaction"
+
+Break/Continue:
+3. wap to calculate the sum of numbers (10 numbers max)
+  a) If the user enters a negative number, the loop terminates
+ b) If the user enters a negative number, it's not added to the result
+ ex   a: user enters 
+  1 - add to sum , 20, add to sum , 0 - terminate the loop and sum  should be printed 
+  ex b : user enters  1 - add to sum , 20 , add to sum , -1 - dont add to sum - go to next iteration - print sum 
+ 
+
+4.     wap to print  The number of consecutive same elements in the sequence should be same as the value.
+Example: 1 2 2 3 3 3 4 4 4 4 is valid (input is 4 )              
+1 2  3 3 3  is invalid. (input is 3) 
+
+If....Else:
+5.Write a c program to print all even and odd numbers btwn 1-100  
+o/p : even numbers are : 2,4,6,....100
+      odd numbers are : 1,3,5,.....99
+DS:
+6.create a stack and push 1,2,3 and pop once - print after even push and pop 
